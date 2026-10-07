@@ -1,0 +1,9 @@
+
+services:
+  scheduler:
+    environment:
+      AIRFLOW__CORE__PARALLELISM: "2"
+
+  dag-processor:
+    environment:
+      AIRFLOW__DAG_PROCESSOR__PARSING_PROCESSES: "1"

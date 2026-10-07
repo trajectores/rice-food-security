@@ -1,0 +1,6 @@
+pandas
+requests
+sqlalchemy
+pymysql
+pymysql
+apache-airflow-providers-mysql
